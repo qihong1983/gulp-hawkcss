@@ -7,10 +7,10 @@
 ## 插件的使用(gulpfile.js)
 ```javascript
 var gulp = require('gulp'),
-  hawkcss = require('./gulp-hawkcss');
+  hawkcss = require('gulp-hawkcss');
 
 gulp.task('default', function() {
-  gulp.src('./css*.html')
+  gulp.src('./*.html')
     .pipe(hawkcss())
     .pipe(gulp.dest('dest/'));
 });

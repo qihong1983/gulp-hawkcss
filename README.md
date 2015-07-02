@@ -7,7 +7,7 @@
 ## 示例： http://a.cdn.cn/??assets/a1.css,assets/a2.css,assets/a3.css"
 
 
-```javascript
+``javascript
 var gulp = require('gulp'),
   hawkcss = require('./gulp-hawkcss');
 
@@ -16,5 +16,5 @@ gulp.task('default', function() {
     .pipe(hawkcss())
     .pipe(gulp.dest('dest/'));
 });
-```
+``
 asldkfaslfdj

@@ -18,9 +18,9 @@ gulp.task('default', function() {
 
 ## 示例html代码
 
-> ```<link rel="stylesheet" href="assets/a1.css" />```
-> ```<link rel="stylesheet" href="assets/a2.css" />```
-> ```<link rel="stylesheet" href="assets/a3.css" />```
+> <link rel="stylesheet" href="assets/a1.css" />
+> <link rel="stylesheet" href="assets/a2.css" />
+> <link rel="stylesheet" href="assets/a3.css" />
 #### from
 ```html
 <!DOCTYPE html>

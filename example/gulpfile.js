@@ -1,5 +1,5 @@
 var gulp = require('gulp'),
-  hawkcss = require('./gulp-hawkcss');
+  hawkcss = require('gulp-hawkcss');
 
 gulp.task('default', function() {
   gulp.src('./css*.html')

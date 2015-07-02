@@ -1,13 +1,7 @@
-#### hawk Ç°¶Ë×Ô¶¯»¯¹¤¾ß css³éÈ¡
+#### cssåˆå¹¶
 
-## npm install gulp-hawkcss
+#### å®‰è£… 
 
-~~
-	var gulp = require('gulp'),
-	  hawkcss = require('./gulp-hawkcss');
+### npm install gulp-haskcss
 
-	  gulp.task('default', function() {
-	    gulp.src('./css*.html')
-		    .pipe(hawkcss())
-			    .pipe(gulp.dest('dest/'));
-				});
+### ç¤ºä¾‹ï¼š http://a.cdn.cn/??assets/a1.css,assets/a2.css,assets/a3.css"

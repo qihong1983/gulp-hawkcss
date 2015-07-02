@@ -1,0 +1,23 @@
+{
+  "name": "hawkcss",
+  "version": "1.0.3",
+  "main": "gulp-hawkcss.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.6",
+    "through2": "^2.0.0",
+    "jquery": "^1.6.3",
+    "preprocess": "^2.3.1",
+    "io": "^0.1.6",
+    "node-jquery": "^0.1.0",
+    "jsdom": "^5.4.3",
+    "async": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HongQi",
+  "license": "MIT",
+  "description": ""
+}

@@ -18,10 +18,8 @@ gulp.task('default', function() {
 
 ## 示例html代码
 
-> <link rel="stylesheet" href="assets/a1.css" />
-> <link rel="stylesheet" href="assets/a2.css" />
-> <link rel="stylesheet" href="assets/a3.css" />
-#### from
+> http://a.cdn.cn/??assets/a1.css,assets/a2.css,assets/a3.css
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -47,39 +45,6 @@ gulp.task('default', function() {
     </div>
 
     <link rel="stylesheet" href="assets/a3.css" />
-    <div class="a3">
-        a3
-    </div>
-
-
-</body>
-</html>
-```
-> http://a.cdn.cn/??assets/a1.css,assets/a2.css,assets/a3.css
-#### to
-```html
-<!DOCTYPE html>
-<html>
-<head lang="zh-cmn-Hans">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="renderer" content="webkit">
-    <link rel="stylesheet" href="assets/mian.css" />
-    <link rel="stylesheet" href="http://a.cdn.cn/??assets/a1.css,assets/a2.css,assets/a3.css" />
-
-    <title>cssCombo</title>
-</head>
-<body>
-    
-    
-    <div class="a1">
-        a1
-    </div>
-    <div class="a2">
-        a2
-    </div>
-
-    
     <div class="a3">
         a3
     </div>

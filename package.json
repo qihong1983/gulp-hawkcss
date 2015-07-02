@@ -1,6 +1,6 @@
 {
   "name": "gulp-hawkcss",
-  "version": "1.0.8",
+  "version": "1.0.12",
   "main": "gulp-hawkcss.js",
   "dependencies": {
     "gulp": "^3.9.0",

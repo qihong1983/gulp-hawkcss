@@ -4,10 +4,6 @@
 
 > npm install gulp-haskcss
 
-## 示例 
-> http://a.cdn.cn/??assets/a1.css,assets/a2.css,assets/a3.css
-
-
 ## 插件的使用(gulpfile.js)
 ```javascript
 var gulp = require('gulp'),
@@ -21,6 +17,8 @@ gulp.task('default', function() {
 ```
 
 ## 示例html代码
+
+> http://a.cdn.cn/??assets/a1.css,assets/a2.css,assets/a3.css
 
 ```html
 <!DOCTYPE html>

@@ -2,7 +2,7 @@
 
 ## 安装 
 
-> npm install gulp-haskcss
+> npm install gulp-hawkcss
 
 ## 插件的使用(gulpfile.js)
 ```javascript

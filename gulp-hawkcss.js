@@ -59,7 +59,19 @@ module.exports = function (options) {
 
         });
 
-
+        Array.prototype.unique = function() {
+          var res = [];
+          var json = {};
+          for(var i = 0; i < this.length; i++){
+            if(!json[this[i]]){
+              res.push(this[i]);
+              json[this[i]] = 1;
+            }
+          }
+          return res;
+        }
+      
+        css_file_arr = css_file_arr.unique();
         css_file_arr.forEach(function (v, k) {
 
           if (k < css_file_arr.length - 1) {

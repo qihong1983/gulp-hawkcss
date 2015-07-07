@@ -24,7 +24,7 @@ module.exports = function (options) {
 
       init: function (data) {
 
-        this.get_all_css = /<link rel="stylesheet" href="[\w\d\/]*\w*\d*[^main|^bases|^common|^reset].css" \/>/ig;
+        this.get_all_css = /<link rel="stylesheet" href="[\w\d\/]*\w*\d*[^??|^main|^bases|^common|^reset].css" \/>/ig;
 
         this.get_css_content_url = /[\w\d\.]+\/[\w\d]*\.{1}css/gi;
 

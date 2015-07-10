@@ -44,7 +44,13 @@ module.exports = function (options) {
         var that = this;
 
         var file_content = file.contents.toString();
-        var arr = file_content.match(that.get_all_css);
+        if(that.get_all_css.test(file_content)) {
+          
+
+          var arr = file_content.match(that.get_all_css);  
+        } else {
+          return file_content;
+        }
 
 
         var css_file_arr = [];
